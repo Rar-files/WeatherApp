@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "sourceMap": false,
+        // "strictNullChecks": true,
+        "noImplicitAny": true,
+        // "module": "commonjs",
+        "target": "es6",
+        "removeComments": true,
+        "outDir": "./build/app",
+        "rootDirs": ["./src"],  
+        "watch": true,
+    },
+    "include": [
+        "src/**/*"
+    ],
+}
